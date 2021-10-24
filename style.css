@@ -12,6 +12,13 @@
     
 }
 
+.block {
+    text-align: left;
+    padding-left:30%;
+    padding-right:30%;
+    display : block;
+}
+
 body {
     font-family: 'Helvetica', sans-serif;
     font-size: large;
