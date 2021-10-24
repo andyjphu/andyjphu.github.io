@@ -9,6 +9,7 @@
     /* border :5px solid green; */
     padding-left:30%;
     padding-right:30%
+    
 }
 
 body {
@@ -19,4 +20,9 @@ body {
 p {
     font-family: 'Helvetica', sans-serif;
     font-size: medium;    
+    display: inline;
+}
+
+a {
+    display: inline;
 }
