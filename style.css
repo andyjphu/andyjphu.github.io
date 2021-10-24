@@ -1,5 +1,14 @@
 .center {
     text-align: center;
+    /* border :5px solid red; */
+
+}
+
+.left {
+    text-align:left;
+    /* border :5px solid green; */
+    padding-left:30%;
+    padding-right:30%
 }
 
 body {
