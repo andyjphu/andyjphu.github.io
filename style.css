@@ -1,0 +1,13 @@
+.center {
+    text-align: center;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-size: large;
+}
+
+p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: medium;    
+}
