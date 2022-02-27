@@ -33,3 +33,9 @@ p {
 a {
     display: inline;
 }
+.rounded {
+
+    border: 5px solid black;
+    overflow: hidden; 
+    border-radius: 5px;
+}
