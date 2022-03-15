@@ -28,14 +28,17 @@ p {
     font-family: 'Helvetica', sans-serif;
     font-size: medium;    
     display: inline;
+    line-height: 2;
 }
 
 a {
     display: inline;
 }
+
 .rounded {
 
     border: 5px solid black;
     overflow: hidden; 
     border-radius: 5px;
 }
+
