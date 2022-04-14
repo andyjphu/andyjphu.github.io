@@ -22,6 +22,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
     font-size: large;
+    background-image : url("images/trees.png");
 }
 
 p {
@@ -29,6 +30,7 @@ p {
     font-size: medium;    
     display: inline;
     line-height: 2;
+    background-color:wheat;
 }
 
 a {

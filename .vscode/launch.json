@@ -4,14 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-        
-
         {
             "type": "firefox",
             "request": "launch",
-            "name": "Open webGL.html",
-            "file": "c:\\Users\\AndyJ\\Documents\\GitHub\\MaliciousSoap.github.io\\webGL\\webGL.html"
+            "reAttach": true,
+            "name": "Launch index.html",
+            "file": "${workspaceFolder}/index.html"
         }
     ]
 }
