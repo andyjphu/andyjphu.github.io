@@ -32,10 +32,11 @@
 }
 .header{
     background-color:#FCE38A;
-    width:120%;
-    left:-10%;
+    left:-10px;
+    width:100.99%;
     
-    position: relative;
+    
+    position:relative;
     top: -10px;
 }
 .center {
@@ -57,7 +58,9 @@ body {
     font-family: 'Helvetica', sans-serif;
     font-size: large;
     
-     background-image : url("images/leapfaith.jpg");
+     background-image : url("images/Leapfaithv2.jpg");
+     background-position-x: -2px;
+    background-size: auto;
 }
 
 p {
