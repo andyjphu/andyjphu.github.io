@@ -1,18 +1,30 @@
+.colorpalettes {
+    background-color: #E63946;
+    background-color: #F1FAEE;
+    background-color: #A8DADC;
+    background-color: #457B9D;
+    background-color: #1D3557;
+    
+}
 .spacer {
     height : 69px;
 }
 .block {
     position:relative;
-    background-color: #F38181;
+    background-color: #457B9D;
     left:30%;
     width:40%;
     padding-block: 1%;
     text-align: center;
     
+    border-radius: 10px;
 }
 .blocktext {
     
-    background-color: #EAFFD0;
+    background-color: #457B9D;
+    margin-top: -25px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .header{
     background-color:#FCE38A;
@@ -32,6 +44,7 @@
 }
 
 body {
+    
     font-family: 'Helvetica', sans-serif;
     font-size: large;
     /* background-image : url("images/trees.png"); */
@@ -47,6 +60,7 @@ p {
 
 a {
     display: inline;
+    color:#A8DADC;
 }
 
 .rounded {
@@ -58,4 +72,15 @@ a {
 p1 {
     text-align: center;
     padding-left: 0px;
+    
+    color:#F1FAEE;
+}
+h1{
+    color:#F1FAEE;
+}
+h2{
+    color:#F1FAEE;
+}
+h3{
+    color:#A8DADC
 }
