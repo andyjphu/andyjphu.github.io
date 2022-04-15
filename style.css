@@ -6,6 +6,9 @@
     background-color: #1D3557;
     
 }
+.endofpage{
+    height:420px
+}
 .spacer {
     height : 69px;
 }
@@ -22,12 +25,17 @@
 .blocktext {
     
     background-color: #457B9D;
-    margin-top: -25px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-top: -0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .header{
     background-color:#FCE38A;
+    width:120%;
+    left:-10%;
+    
+    position: relative;
+    top: -10px;
 }
 .center {
     text-align: center;
@@ -47,7 +55,8 @@ body {
     
     font-family: 'Helvetica', sans-serif;
     font-size: large;
-    /* background-image : url("images/trees.png"); */
+    
+     background-image : url("images/leapfaith.jpg");
 }
 
 p {
@@ -55,7 +64,6 @@ p {
     font-size: medium;    
     display: inline;
     line-height: 2;
-    background-color:wheat;
 }
 
 a {
