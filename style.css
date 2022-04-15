@@ -1,3 +1,22 @@
+.spacer {
+    height : 69px;
+}
+.block {
+    position:relative;
+    background-color: #F38181;
+    left:30%;
+    width:40%;
+    padding-block: 1%;
+    text-align: center;
+    
+}
+.blocktext {
+    
+    background-color: #EAFFD0;
+}
+.header{
+    background-color:#FCE38A;
+}
 .center {
     text-align: center;
     /* border :5px solid red; */
@@ -12,17 +31,10 @@
     
 }
 
-.block {
-    text-align: left;
-    padding-left:30%;
-    padding-right:30%;
-    display : block;
-}
-
 body {
     font-family: 'Helvetica', sans-serif;
     font-size: large;
-    background-image : url("images/trees.png");
+    /* background-image : url("images/trees.png"); */
 }
 
 p {
@@ -43,4 +55,7 @@ a {
     overflow: hidden; 
     border-radius: 5px;
 }
-
+p1 {
+    text-align: center;
+    padding-left: 0px;
+}
