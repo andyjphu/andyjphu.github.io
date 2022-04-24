@@ -1,3 +1,44 @@
+.colorpalettes {
+    background-color: #E63946;
+    background-color: #F1FAEE;
+    background-color: #A8DADC;
+    background-color: #457B9D;
+    background-color: #1D3557;
+    
+}
+.endofpage{
+    height:0px;
+    display:inline-block;
+}
+.spacer {
+    height : 69px;
+}
+.block {
+    position:relative;
+    background-color: #457B9D;
+    left:30%;
+    width:40%;
+    padding-block: 1%;
+    text-align: center;
+    
+    border-radius: 10px;
+}
+.blocktext {
+    
+    background-color: #457B9D;
+    margin-top: -0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.header{
+    background-color:#FCE38A;
+    left:-10px;
+    width:100.9%;
+    
+    
+    position:relative;
+    top: -10px;
+}
 .center {
     text-align: center;
     /* border :5px solid red; */
@@ -12,16 +53,14 @@
     
 }
 
-.block {
-    text-align: left;
-    padding-left:30%;
-    padding-right:30%;
-    display : block;
-}
-
 body {
+    
     font-family: 'Helvetica', sans-serif;
     font-size: large;
+    
+     background-image : url("images/Leapfaithv2.jpg");
+     background-position-x: -2px;
+    background-size: auto;
 }
 
 p {
@@ -33,6 +72,7 @@ p {
 
 a {
     display: inline;
+    color:#A8DADC;
 }
 
 .rounded {
@@ -41,4 +81,18 @@ a {
     overflow: hidden; 
     border-radius: 5px;
 }
-
+p1 {
+    text-align: center;
+    padding-left: 0px;
+    
+    color:#F1FAEE;
+}
+h1{
+    color:#F1FAEE;
+}
+h2{
+    color:#F1FAEE;
+}
+h3{
+    color:#A8DADC
+}
