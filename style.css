@@ -1,7 +1,26 @@
+a.blind-link {
+    color: black
+}
+
+
+div.letter-paper-padding {
+    padding-left: 15vw; /*10% viewport width*/
+    padding-right: 15vw;
+}
+
+p.center {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
 }
 
-h2 {
+h4 {
     text-align: center;
+}
+
+
+hr.solid {
+    border-top: 2px solid black;
 }
