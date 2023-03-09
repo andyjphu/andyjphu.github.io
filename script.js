@@ -1,20 +1,4 @@
-let oHeight = 0
-window.onload = (event) => { 
-    //console.log('page is fully loaded');
-};
-window.onscroll = (event) => {
-    //console.log("scrolling")
-    //console.log(window.scrollY)
-    //console.log(document.documentElement.scrollHeight)
-    //console.log(window.innerHeight)
-   // console.log(window.scrollY)
-    //console.log((window.innerHeight))
-    //console.log(document.documentElement.scrollHeight)
-    //console.log(Number(window.scrollY)+Number(window.innerHeight))
-    if (Number(window.scrollY)+Number(window.innerHeight) >= document.documentElement.scrollHeight-420){
-        oHeight+=420
-        //console.log("bottom");
-        //console.log(eopclass);
-        document.getElementById("eop").style.height=String(oHeight)+"px"
-    }
+if (!localStorage.getItem("alerted")) {
+    alert("Hey there! thanks for checking this out, but I don't have any industry level projects just yet--check back in a bit and I hope you'll find something you like"); //3.8.2023 preface
+    localStorage.setItem("alerted","true")
 }
