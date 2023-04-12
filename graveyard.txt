@@ -349,3 +349,15 @@
 
 
     }*/
+
+
+
+
+
+    public T getLeftMostData()  { //Iterative
+         BTNGen temp = this; 
+         while (temp.getLeft() != null)
+            temp = temp.getLeft();
+
+        return temp.getData();  //get the leftmost DATA not the left most node
+    }
