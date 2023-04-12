@@ -353,7 +353,7 @@
 
 
 
-
+    //recursive solutions tend to be simpler
     public T getLeftMostData()  { //Iterative
          BTNGen temp = this; 
          while (temp.getLeft() != null)
