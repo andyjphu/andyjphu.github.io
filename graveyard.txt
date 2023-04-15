@@ -1,4 +1,4 @@
-
+Welcome to the large chunks of code I had to cull en masse
 
     /*
      //true node sort loses elements somehow
@@ -361,3 +361,53 @@
 
         return temp.getData();  //get the leftmost DATA not the left most node
     }
+
+    //recursive
+    public T getLeftMostData() {
+        if (left==null) {
+            return right;
+        }
+        else return left.getLeftMostData();
+    }
+
+
+    public BTNGen removeLeftMost { //recursive
+        if (left==null) 
+            return right; 
+        else 
+            left= left.removeLeftMost()
+            return this;
+    }
+
+ 
+
+         if (a>b && a>c) {
+            //a is largest
+            if (b>c) {
+                //c is smallest
+                return (new int[] {1,a-c-2});
+            }
+            else if (c>b) {
+                //b is smallest
+            }
+        }
+        else if (b>a && b>c) {
+            //a is largest
+            if (a>c) {
+                //c is smallest
+            }
+            else if (c>a) {
+                //a is smallest
+            }
+        }
+        else if (c>b && c>a) {
+            //c is largest
+            if (a>b) {
+                //b is smallest
+            }
+            else if (b>a) {
+                return (new int[] {1,c-a-2});
+                //a is smallest
+            }
+        }
+        
