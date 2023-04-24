@@ -410,4 +410,359 @@ Welcome to the large chunks of code I had to cull en masse
                 //a is smallest
             }
         }
+    import random;
+coins = [1,1,2,0]
+
+c1 = coins.pop(random.randrange(0,3))
+c2 = coins.pop(random.randrange(0,2))
+c3 = coins.pop(random.randrange(0,1))
+c4 = coins.pop(0)
+
+print(c1,c2,c3,c4,coins)
+
+if (c1 == c2): #FIRST WEIGH WE KNOW IF C1>C2
+    print("ODD COINS ARE", c3,c4)
+    quit("DONE")
+else:
+    #c1c2 could either be normal-light, normal-heavy or heavy-light
+    c1_heavy = c1 > c2
+    
+    
+     
+    
+    if (c1+c2 == c3+c4): #SECOND WEIGH, WE KNOW IF c1+c2 > c3+c4
         
+        print("ODD COINS ARE", c1,c2) #c1 and c2 aren't equal, but sum equal, 
+        quit()
+    else:
+        #c1c2  could either be normal light or normal heavy
+        if(c1+c2 > c3+c4 and c1+c3 > c2+c4):
+            #THE ONES THAT WERE MOVED CHANGED NOTHING
+            print("ODD COINS ARE", c1,c4)
+                    
+        
+#
+
+import random;
+coins = [1,1,2,0]
+
+c1 = coins.pop(random.randrange(0,4))
+c2 = coins.pop(random.randrange(0,3))
+c3 = coins.pop(random.randrange(0,2))
+c4 = coins.pop(0)
+
+
+#CHECKER NODE
+c1 = 1
+c2 = 0
+c3 = 2
+c4 = 1
+
+
+print(c1,c2,c3,c4)
+
+def _return(msg1,msg2):
+    print(msg1,msg2)
+    quit() 
+
+
+heavy = []
+if (c1+c2 == c3+c4):
+    if(c1!=c2):
+        _return(c1,c2)
+    else:
+        _return(c3,c4)
+
+
+
+elif (c1+c2 != c3+c4):
+    
+    #not real-------
+    if (c1+c2>c3+c4):
+        heavy += [c1]
+        heavy += [c2]
+        
+    elif (c1+c2<c3+c4):
+        heavy += [c3]
+        heavy += [c4]
+    #---------------
+    
+    if (c1>c2):
+        if (c3>c4):
+            _return(c1,c4)
+        elif(c4>c3):
+            _return(c1,c3)
+    elif (c2>c1):
+        if (c3>c4):
+            _return(c2,c4)
+        elif(c4>c3):
+            _return(c2,c3)
+            
+    elif (c1==c2):
+        _return(c3,c4)
+    else:
+        if (c3==c4):
+            _return(c1,c2)
+
+print("exited without cause")
+
+import random;
+
+
+coins = [1,1,2,0]
+
+c1 = coins.pop(random.randrange(0,4))
+c2 = coins.pop(random.randrange(0,3))
+c3 = coins.pop(random.randrange(0,2))
+c4 = coins.pop(0)
+
+
+#CHECKER NODE
+#c1 = 1
+#c2 = 0
+#c3 = 2
+#c4 = 1
+
+
+print(c1,c2,c3,c4)
+
+def _return(msg1,msg2):
+    print(msg1,msg2)
+    quit() 
+
+
+heavy = []
+if (c1+c2 == c3+c4):
+    if(c1!=c2):
+        _return(c1,c2)
+    else:
+        _return(c3,c4)
+
+
+
+elif (c1+c2 != c3+c4):
+    
+    #not real-------
+    if (c1+c2>c3+c4):
+        heavy += [c1]
+        heavy += [c2]
+        c1c2_heavy = True
+        
+    elif (c1+c2<c3+c4):
+        heavy += [c3]
+        heavy += [c4]
+        c1c2_heavy = False
+    #---------------
+    
+    if (c1c2_heavy):
+        #get heaviest of c1c2, lightest of c3c4
+        if (c1>c2):
+            if (c3>c4):
+                _return(c1,c4)
+            elif(c4>c3):
+                _return(c1,c3)
+        elif (c2>c1):
+            if (c3>c4):
+                _return(c2,c4)
+            elif(c4>c3):
+                _return(c2,c3)
+
+    if (not c1c2_heavy):
+        if (c1>c2):
+            if (c3>c4):
+                _return(c2,c3)
+            elif(c4>c3):
+                _return(c2,c4)
+        elif (c2>c1):
+            if (c3>c4):
+                _return(c1,c3)
+            elif(c4>c3):
+                _return(c1,c4)
+
+        
+
+    
+
+
+print("exited without cause")]
+
+import random;
+
+def _return(msg1,msg2):
+    if (msg1==1 or msg2==1):
+        raise Exception("prgram messed up")
+    print(msg1,msg2)
+    return (msg1,msg2)
+
+def _coin_check(coins):
+    #coins = [1,1,2,0]
+
+    #c1 = coins.pop(random.randrange(0,4))
+    #c2 = coins.pop(random.randrange(0,3))
+    #c3 = coins.pop(random.randrange(0,2))
+    #c4 = coins.pop(0)
+
+
+    #CHECKER NODE
+    #c1 = 1
+    #c2 = 0
+    #c3 = 2
+    #c4 = 1
+
+    c1 = coins[0]
+    c2 = coins[1]
+    c3 = coins[2]
+    c4 = coins[3]
+
+
+    print(c1,c2,c3,c4)
+
+
+
+
+    heavy = []
+    if (c1+c2 == c3+c4):
+        if(c1!=c2):
+            _return(c1,c2)
+        else:
+            _return(c3,c4)
+
+
+
+    elif (c1+c2 != c3+c4): # w 1
+        
+        #not real-------
+        if (c1+c2>c3+c4):
+            heavy += [c1]
+            heavy += [c2]
+            c1c2_heavy = True
+            
+        elif (c1+c2<c3+c4):
+            heavy += [c3]
+            heavy += [c4]
+            c1c2_heavy = False
+        #---------------
+        
+        if (c1c2_heavy):
+            #get heaviest of c1c2, lightest of c3c4
+            if (c1>c2): #w2
+                if (c3>c4): #w3
+                    _return(c1,c4)
+                elif(c4>c3):
+                    _return(c1,c3)
+            elif (c2>c1):
+                if (c3>c4):
+                    _return(c2,c4)
+                elif(c4>c3):
+                    _return(c2,c3)
+
+        if (not c1c2_heavy):
+            if (c1>c2):
+                if (c3>c4):
+                    _return(c2,c3)
+                elif(c4>c3):
+                    _return(c2,c4)
+            elif (c2>c1):
+                if (c3>c4):
+                    _return(c1,c3)
+                elif(c4>c3):
+                    _return(c1,c4)
+   
+triedLists = []
+for i in range(12):      #4!/2!
+    ls = [1,0,2,1]
+    while ls in triedLists:
+        random.shuffle(ls)
+    triedLists+=[ls]
+    _coin_check(ls)
+    print(i)
+    
+
+public int getMaxDepth() { //recursive
+    if (getLeft = null && getRight  ==  null) 
+        return;
+    else {
+        if (getLeft() == null) {
+            return getRight();
+        }
+        else {
+            return getLeft();
+        }
+    }
+
+}
+
+//Adding to a binary search tree
+// context of root node
+public void add (T d) {
+    //check to see if root node is null
+    //I can't check if huh? if there's no node there's no add method
+    //ADD is not a node method but a tree method so 
+    //root could be null
+    if (root==null)
+        root = new BTNGen(d, null, null); //put in data of generic type T, left and right are null
+    else  {
+        boolean done = false; 
+
+        //have a variable that wanders down the tree and when it goes as far as the var can go, 
+        //it will stop?
+
+        BTNGen<T>ptr = root; //A  pointer to where I am right now
+        while( !done) {
+            //Able to do this assuming T is of type Comparable<T>
+            //Ideally fill from the left <!--this should not exist-->
+            if (d.compareTo(ptr.getData()≤0)) {
+                if (ptr.getLeft() == null) {
+                    ptr.setLeft(new BTNGen(d, null,null));
+                    done = true;
+                }
+                else {
+                    ptr = ptr.getLeft();
+                }
+            }
+            //when failure happens, when d.compareTo(ptr.getData())>0
+
+            else {
+                if (ptr.getRight() == null) {
+                    ptr.setright(new BTNGen(d,null,null));
+                    done = true;
+                }
+                else {
+                    ptr = ptr.getRight();
+                }
+            }
+
+
+    }
+
+    //no gurantee that the binary tree is full or complete, what you do is 
+    //rotate or re-balance, little bit more expensive than 
+
+}
+
+Random random = new Random();
+        int[] claimedX = new int[mines+1];
+        claimedX[0] = x;
+        int[] claimedY = new int[mines+1];
+        claimedY[0] = y;
+
+        for (int i = 0; i < mines; i++) {
+            int randomX = -1;
+            int randomY = -1;
+            boolean minePlaced = false;
+            while (!minePlaced) {
+                randomX = random.nextInt(minefieldArray.length);
+                randomY = random.nextInt(minefieldArray[0].length);//TODO confirman
+                minePlaced = true;
+                for (int j = 0; j < claimedX.length; j++)
+                    if (randomX == claimedX[j])
+                        for (int k = 0; k < claimedY.length; k++)
+                            if (randomY == claimedY[k])
+                                minePlaced = false;
+
+            }
+            minefieldArray[randomX][randomY].setStatus("M");
+            claimedX[i+1] = randomX;
+            claimedY[i+1] = randomY;
+
+        }
