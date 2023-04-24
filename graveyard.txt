@@ -350,6 +350,24 @@ Welcome to the large chunks of code I had to cull en masse
 
     }*/
 
+<<<<<<< HEAD
+    
+    /*
+    public void reverseSegment(int from, int to) {
+
+        Node evalNode = get(from);
+        Node previous = referenceNode;
+        Node next;
+        while (evalNode != null) {
+            next = evalNode.getNext();
+            evalNode.setNext(previous);
+            previous = evalNode;
+            evalNode = next;
+
+        }
+        referenceNode.setNext(previous);
+    }*/
+=======
 
 
 
