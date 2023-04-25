@@ -695,7 +695,52 @@ for i in range(12):      #4!/2!
     _coin_check(ls)
     print(i)
     
+            //for (j = 0; j < item.toString().length(); j+=2) {
+        //    utfSum += item.toString().charAt(j);
+        //}
 
+                    //adjust south center
+                    if (i > 0 && !minefieldArray[i - 1][j].getStatus().equals("M")) {
+                        //Take cell status, and increment it by one
+                        minefieldArray[i - 1][j].setStatus(
+                                String.valueOf(
+                                        Integer.valueOf(
+                                                minefieldArray[i - 1][j].toString()
+                                        ) + 1
+                                )
+                        );
+                    }
+                    if (i > 0 && !minefieldArray[i - 1][j].getStatus().equals("M")) {
+                        //Take cell status, and increment it by one
+                        minefieldArray[i - 1][j].setStatus(
+                                String.valueOf(
+                                        Integer.valueOf(
+                                                minefieldArray[i - 1][j].toString()
+                                        ) + 1
+                                )
+                        );
+                    }
+                    if (i > 0 && !minefieldArray[i - 1][j].getStatus().equals("M")) {
+                        //Take cell status, and increment it by one
+                        minefieldArray[i - 1][j].setStatus(
+                                String.valueOf(
+                                        Integer.valueOf(
+                                                minefieldArray[i - 1][j].toString()
+                                        ) + 1
+                                )
+                        );
+                    }
+    //TODO: Implement a hash function
+    public int hash(T item) {
+        //praise goff for intellisense
+        int utfSum = 0;
+        int i =0;
+        for (i = 0; i < item.toString().length(); i++) {
+            utfSum += item.toString().getBytes()[i];
+        }
+
+        return utfSum/i;
+    }
 public int getMaxDepth() { //recursive
     if (getLeft = null && getRight  ==  null) 
         return;
