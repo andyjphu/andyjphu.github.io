@@ -1188,3 +1188,32 @@ public class Queue<T> {
         }
     }
 }
+import java.util.*;
+
+public class Main {
+    public static boolean isPalindrome(String str)
+    {
+
+        Queue<Character> q = new LinkedList<Character>();
+        
+        //this is ridiculous, why even use a queue at all? Why not just use the for loop in reverse cause 
+        //That's the only thing reversing the string
+        //It would make more sense to use a stack so you could atleast take advantage of the natural reverse
+        for(int i = str.length()-1; i >= 0; i--)
+        {
+
+            q.add(str.charAt(i));
+        }
+        String temp = "";
+        while(!q.isEmpty())
+        {
+            temp += q.remove();
+        }
+        return temp.equals(str);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPalindrome("123"));
+    }
+
+}
