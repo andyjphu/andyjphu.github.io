@@ -1,0 +1,33 @@
+li {
+    list-style-type: "";
+    margin: 0.5vw;
+    padding: 0.01vw;
+}
+ol {
+    font-size: small;
+    margin: 1vw;
+    padding: 1vw;
+}
+ul {
+    font-size: small;
+    margin: 1vw;
+    padding: 1vw;
+}
+.red{
+    background-color: rgba(239,65,70,.4);
+}
+.blue {
+    background-color: rgba(39,181,234,.4);
+}
+.purple {
+    background-color: rgba(107,64,216,.3);
+   
+}
+
+.orange {
+    background-color: rgba(244,172,54,.4);
+}
+
+.green {
+    background-color: rgba(104,222,122,.4);
+}

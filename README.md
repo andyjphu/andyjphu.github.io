@@ -10,6 +10,8 @@ Influenced by
 
     http://bluegalaxy.info/codewalk/2018/04/05/html-css-expand-text-hover/
 
+    https://platform.openai.com/tokenizer
+
     and others. 
 
 

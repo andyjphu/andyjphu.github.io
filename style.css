@@ -11,6 +11,9 @@ div.letter-paper-padding {
 p.center {
     text-align: center;
 }
+p.small {
+    font-size: small;
+}
 
 h1 {
     text-align: center;
