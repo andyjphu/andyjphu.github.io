@@ -1,4 +1,4 @@
-> Make note taking app interfaceable with vim?
+Make note taking app interfaceable with vim?
 
 Debts and Interests
 - Modern geopolicy simulator, big countries loan money to developing countries, get influence, interfere in elections, get resources cheaply, get more money, do more loaning and developing. 
