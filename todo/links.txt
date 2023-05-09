@@ -43,3 +43,5 @@ https://www.w3docs.com/snippets/css/how-to-override-css-styles.html
 https://vercel.com/pricing
 https://float.exposed/0x44bf9400
 https://integer.exposed/
+https://stackoverflow.com/questions/10921441/where-is-my-vimrc-file/34005877#34005877
+https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces

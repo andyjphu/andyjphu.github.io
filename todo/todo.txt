@@ -1,0 +1,8 @@
+> Make note taking app interfaceable with vim?
+
+Debts and Interests
+- Modern geopolicy simulator, big countries loan money to developing countries, get influence, interfere in elections, get resources cheaply, get more money, do more loaning and developing. 
+- Three factions, East, West and Non-Aligned? or maybe have it as the official name? Or maybe make a faction for every major power and one for emerging powers
+- The goal of the emerging powers is to nationalize, democratize and industrialize
+- The goal of the super powers is to get as much wealth and prestige (which may indirectly allow for more wealth opportunities)
+- the game ends 
