@@ -9,7 +9,7 @@
             "request": "launch",
             "reAttach": true,
             "name": "Launch home.html",
-            "file": "${workspaceFolder}/firebase.html"
+            "file": "${workspaceFolder}/todo.html"
         }
     ]
 }

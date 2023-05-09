@@ -40,3 +40,6 @@ https://pub.umn.edu/admissions/Admitted-Student-Guide-Fall-2023/
 https://steamworkshopdownloader.io/download/2115302648
 https://www.ibm.com/training/learning-paths-and-collections
 https://www.w3docs.com/snippets/css/how-to-override-css-styles.html
+https://vercel.com/pricing
+https://float.exposed/0x44bf9400
+https://integer.exposed/
