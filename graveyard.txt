@@ -1332,3 +1332,43 @@ public class Intersect : MonoBehaviour
     import { Links } from "./links.txt";
 
 }
+
+
+        returnList = []
+        #first row doesn't need to do anything
+        returnList += matrix[0]
+        #of an mxn matrix, m is down, n is across
+        #first m has been a
+
+        m = len(matrix)
+
+
+        for i in range(1, m):
+            returnList += [matrix[i][m-1]]
+
+        #for j in range (m-1, 0):
+        #    returnList += [matrix[m-1][j]]
+        returnList += 
+
+
+        #for (k in range (m-1, 1)):
+        returnList += matrix[1][0:m-2]
+        
+
+        return returnList
+
+                #right
+        returnList += matrix[0][0:m-1]
+
+        print(matrix[1:n-1])
+        print(m-1)
+        #down
+        returnList += matrix[m-1][1:n-1]
+
+        #left
+        returnList += matrix[n-1][m-2: 0]
+        print(returnList)
+        #up
+        returnList += matrix[n-2:0+1][0]
+        #repeat add 1
+        returnList += matrix[1][1:m-1-1]
