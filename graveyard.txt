@@ -1328,4 +1328,7 @@ public class Intersect : MonoBehaviour
     private void Update()
     {
     }
+
+    import { Links } from "./links.txt";
+
 }
