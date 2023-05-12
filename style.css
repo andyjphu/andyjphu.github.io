@@ -27,3 +27,7 @@ hr.solid {
 body {
     font-family: 'Roboto Mono', monospace;
 }
+div.centered {
+    align-content: center;
+    text-align: center;
+}

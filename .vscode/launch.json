@@ -1,10 +1,6 @@
 {
     "version": "0.2.0",
     "configurations": [
-        
-
-
-
 
         {
             "type": "firefox",
@@ -13,7 +9,6 @@
             "name": "Launch home.html",
             "file": "${workspaceFolder}/todo.html"
         },
-
         {
             "name": "Python: File",
             "type": "python",
