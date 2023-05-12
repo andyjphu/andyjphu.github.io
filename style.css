@@ -31,3 +31,12 @@ div.centered {
     align-content: center;
     text-align: center;
 }
+
+
+iframe.mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 80%;
+}
