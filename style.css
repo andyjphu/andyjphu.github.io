@@ -27,3 +27,16 @@ hr.solid {
 body {
     font-family: 'Roboto Mono', monospace;
 }
+div.centered {
+    align-content: center;
+    text-align: center;
+}
+
+
+iframe.mobile {
+    width: 80%;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
