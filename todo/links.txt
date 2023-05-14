@@ -46,3 +46,4 @@ https://integer.exposed/
 https://stackoverflow.com/questions/10921441/where-is-my-vimrc-file/34005877#34005877
 https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
 https://app.bitly.com/Bn5a3jTvni7/bitlinks/3HZ5hno/details
+https://en.wiktionary.org/wiki/Category:English_pronominal_adverbs
