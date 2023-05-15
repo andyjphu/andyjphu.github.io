@@ -1,3 +1,6 @@
+#DEPRECATED#
+
+
 Make note taking app interfaceable with vim?
 
 Debts and Interests
