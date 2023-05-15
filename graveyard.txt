@@ -1600,3 +1600,56 @@ class Solution:
 
 
         return dp[n1-1][n2-1]
+
+class Solution:
+    def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        if (head.next == None):
+            return head
+        elif (head.next.next == None):
+            head.next.next = head
+            newHead = head.next
+            head.next = None
+
+            return newHead
+        elif (k == 1):
+
+            left = head
+            right_trailer = head
+            while right_trailer.next.next != None:
+                right_trailer = right_trailer.next
+            right_trailer.next.next = left.next
+            newHead = right_trailer.next
+            
+            right_trailer.next = left
+            left.next = None
+            return newHead
+
+        left_trailer = head
+        for i in range(k-2): #k-1 places left trailer just before target of swap, k-2 to adjust for 1-index
+            left_trailer = left_trailer.next
+        left = left_trailer.next
+
+
+        print(left, "___", left_trailer)
+
+        end_finder = left.next
+        right_trailer = head
+        #right = head.next
+
+        while (end_finder.next!=None):
+            end_finder=end_finder.next
+            right_trailer = right_trailer.next
+
+        right = right_trailer.next
+
+        print(right, "###", right_trailer)
+
+        right_trailer.next = left
+        left_trailer.next=right
+        
+        temp_next = left.next
+        left.next = right.next
+        right.next = temp_next 
+
+
+        return head
