@@ -1653,3 +1653,71 @@ class Solution:
             bad_nums.add(gcd_list[i][1][1])
 
         return sum
+
+
+        # Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def swapNodes(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+        if (head.next == None):
+            return head
+        if (head.next.next == None):
+            head.next.next = head
+            newHead = head.next
+            head.next = None
+            return newHead
+        if (k == 1):
+
+            end_finder = head
+            while(end_finder.next.next != None):
+
+                end_finder = end_finder.next
+            
+            newHead = end_finder.next
+            newHead.next = head.next
+            head.next = None
+            end_finder.next = head
+
+            return newHead
+        
+        #insert fake head
+        #fake_head = ListNode(-1, head)
+        #head = fake_head 
+
+        end_finder = head
+        list_size = 0; 
+        a_trailer = None
+
+        reference_head = ListNode(-1, head)
+
+        while(end_finder != None):
+
+            list_size += 1
+            if (list_size==k-1):
+                a_trailer = end_finder
+
+            end_finder = end_finder.next
+        
+        
+        b_trailer = reference_head
+        for i in range(list_size-k):
+            b_trailer = b_trailer.next
+
+        a = a_trailer.next
+        b = b_trailer.next
+
+
+        a_trailer.next = b 
+        
+        b_trailer.next = a
+
+
+        temp_next = a.next
+        a.next = b.next
+        b.next = temp_next 
+
+
+        return reference_head.next
