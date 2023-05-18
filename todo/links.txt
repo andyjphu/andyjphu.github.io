@@ -48,3 +48,12 @@ https://stackoverflow.com/questions/1878974/redefine-tab-as-4-spaces
 https://app.bitly.com/Bn5a3jTvni7/bitlinks/3HZ5hno/details
 https://en.wiktionary.org/wiki/Category:English_pronominal_adverbs
 https://github.com/rdebath/whitespace/blob/master/tests/rdebath/helloworld.ws
+https://www.ibm.com/plex/concept/
+https://dmoj.ca/problems/?order=ac_rate
+https://wiki.python.org/moin/TimeComplexity <<<<THIS ONE's REALLY IMPORTANT 
+https://opensource.apple.com/source/Libc/Libc-320/include/dirent.h.auto.html
+https://developer.apple.com/documentation/apple-silicon/building-a-universal-macos-binary
+https://ss64.com/osx/
+https://www.studytonight.com/c/programs/files-and-streams/program-to-list-files-in-directory
+https://stackoverflow.com/questions/58245469/o-vs-out-in-c#:~:text=By%20convention%20the%20.o%20extension,extension%20is%20not%20commonly%20used).
+https://developer.apple.com/library/archive/documentation/Porting/Conceptual/PortingUnix/compiling/compiling.html

@@ -1721,3 +1721,30 @@ class Solution:
 
 
         return reference_head.next
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def pairSum(self, head: Optional[ListNode]) -> int:
+        traverse = head
+        
+        n = 0
+        allVals = [] 
+        
+        while traverse != None:
+            allVals += [traverse.val]
+            n+=1    
+            traverse = traverse.next
+        
+        
+        maxPair = 0
+        for i in range (n//2):
+            maxPair = max(maxPair, allVals[i]+allVals[n-1-i])
+
+        return maxPair
+        
+        
+        
