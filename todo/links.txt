@@ -57,3 +57,4 @@ https://ss64.com/osx/
 https://www.studytonight.com/c/programs/files-and-streams/program-to-list-files-in-directory
 https://stackoverflow.com/questions/58245469/o-vs-out-in-c#:~:text=By%20convention%20the%20.o%20extension,extension%20is%20not%20commonly%20used).
 https://developer.apple.com/library/archive/documentation/Porting/Conceptual/PortingUnix/compiling/compiling.html
+https://www.jitbit.com/screensharing/#75522623314130515591000000000931

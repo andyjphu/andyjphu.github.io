@@ -1869,7 +1869,21 @@ class Solution:
                     
             
 
+class Solution:
+    def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
+        returnEval = [] 
 
+        for q in queries:
+            if q in equations:
+                returnEval += [values[equations.index(q)]]
+            elif reversed(q) in equations:
+                returnEval += values[equations.index(reversed(eq))]
+            else:
+                returnEval += [-1.00000]
+
+        return returnEval
+
+        
 
 
 
