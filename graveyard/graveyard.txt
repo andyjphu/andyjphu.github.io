@@ -1883,7 +1883,64 @@ class Solution:
 
         return returnEval
 
+
+        width = len(grid)
+        height = len(grid[0])
+        firstIsland = False
+
+        i = 0
+        while firstIsland = False:
+
+
+    from queue import Queue
+
+
+
+    class Solution:
+        nextItems = set()
+
+        def bfsFill(self, grid, row, col):
+
+            print(row,col)
+            if not (0 <= row < len(grid)):
+                print("HELLO")
+                return
+            if not (0 <= col < len(grid[0])):
+                print("HI")
+                return
         
+            if (grid[row][col]==0):
+                self.bfsMark(grid,row,col)
+
+            if (grid[row][col] == 1):
+                grid[row][col] = 2
+                self.bfsFill(grid, row+1, col+1)
+                self.bfsFill(grid, row-1, col+1)
+                self.bfsFill(grid, row+1, col-1)
+                self.bfsFill(grid, row-1, col-1)
+                
+        def bfsMark(self,grid, row, col):
+            self.nextItems.add([row,col])
+
+        def shortestBridge(self, grid: List[List[int]]) -> int:
+            boundaryQueue = Queue()
+        
+            firstIsland = False; 
+
+
+            for row in range(len(grid)):
+                for col in range(len(grid[0])):
+                    if grid[row][col] == 1:
+                        firstIsland = True
+                        break
+                if firstIsland:
+                    break
+            
+        
+            self.bfsFill(grid, row,col)
+            print(grid)
+            return row
+
 
 
 

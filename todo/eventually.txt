@@ -9,3 +9,5 @@ Debts and Interests
 - The goal of the emerging powers is to nationalize, democratize and industrialize
 - The goal of the super powers is to get as much wealth and prestige (which may indirectly allow for more wealth opportunities)
 - the game ends 
+
+Turn old crappy samsung TV into display for raspberry pi4 that can be SSH'ed into 
