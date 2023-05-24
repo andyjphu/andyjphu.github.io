@@ -1943,4 +1943,44 @@ class Solution:
 
 
 
+    def __init__(self, k: int, nums: List[int]):
+        heapq.heapify(nums)
+        self.nums = nums
+        self.k = k
 
+        for i in range(k,len(self.nums)):
+            heapq.heappop(self.nums)
+
+    def add(self, val: int) -> int:
+        heapq.heappush(self.nums, val)
+        if (len(self.nums)>self.k):
+            heapq.heappop(self.nums)
+        #print(self.nums)
+        #return self.nums[-self.k]
+        #print(sorted(list(heapq.nlargest(self.k, self.nums))))
+        #return sorted(list(heapq.nlargest(self.k, self.nums)))[0]
+        return self.nums[0]
+
+  /*
+const firebase = require("firebase"); //This code was moved down 
+// Required for side-effects
+require("firebase/firestore");
+
+import { initializeApp } from "firebase/app";
+import { getFirestore } from "firebase/firestore";
+import { getAnalytics } from "firebase/analytics";
+
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+// Initialize Cloud Firestore and get a reference to the service
+const db = getFirestore(app);
+
+*/
+
+
+
+// Import the functions you need from the SDKs you need
