@@ -2012,3 +2012,16 @@ const db = getFirestore(app);
 
 
 
+        numsDict = defaultdict(int)
+
+        for el in nums:
+            numsDict[el] += 1
+        
+
+        returnList = []
+
+        for i in range(k):
+            #returnList += next(iter(numsDict))
+            ...
+        print(numsDict)
+        return returnList
